@@ -40,13 +40,6 @@ The final assembled hardware integrates the microcontroller, sensors, GSM module
 
 ![Final Hardware Design](final_design.jpg)
 
-## Demonstration
-The video below showcases the working prototype, specifically demonstrating the automated load cutoff when the balance depletes and the subsequent reconnection after an SMS recharge.
-
-<video src="cutoff_recharge_demo.mp4" controls width="100%">
-  Your browser does not support the video tag. You can <a href="cutoff_recharge_demo.mp4">download the demo video here</a>.
-</video>
-
 ## Limitations
 During testing and evaluation, a few hardware limitations were observed:
 * The ACS712 (30A) sensor exhibited decreased accuracy when measuring very low-current loads.
